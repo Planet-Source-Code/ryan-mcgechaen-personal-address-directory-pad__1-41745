@@ -1,0 +1,165 @@
+[Root]
+Most Recent Package=PAD v2
+
+
+[Package|PAD v2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Backup Feb 26\Ryan  Notebook D\PADv2\Install
+
+[Package|PAD v2|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=Yes
+Excel=Yes
+Text=Yes
+Jet 2.x=Yes
+
+[Package|PAD v2|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|PAD v2|Files Found]
+
+[Package|PAD v2|Files Released]
+
+[Package|PAD v2|Missing Dependency Information]
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+
+[Package|PAD v2|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\comdlg32.ocx=
+
+[Package|PAD v2|Files Added]
+D:\Backup Feb 26\Ryan  Notebook D\PADv2\background.jpg=
+D:\Backup Feb 26\Ryan  Notebook D\PADv2\PAD.ico=
+D:\Backup Feb 26\Ryan  Notebook D\PADv2\Help.doc=
+D:\Backup Feb 26\Ryan  Notebook D\PADv2\help.jpg=
+D:\Backup Feb 26\Ryan  Notebook D\PADv2\PAD.mdb=
+
+[Package|PAD v2|Files Removed]
+d:\backup feb 26\ryan  notebook d\padv2\background.jpg=
+d:\backup feb 26\ryan  notebook d\padv2\pad.exe=
+
+[Package|PAD v2|Files In Project]
+D:\Backup Feb 26\Ryan  Notebook D\PADv2\PAD.exe=No
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\WINDOWS\system32\MSEXCL35.DLL=Yes
+C:\WINDOWS\system32\MSRDO20.DLL=Yes
+C:\WINDOWS\system32\RDOCURS.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\WINDOWS\system32\MSTEXT35.DLL=Yes
+C:\WINDOWS\system32\MSXBSE35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Backup Feb 26\Ryan  Notebook D\PADv2\background.jpg=No
+D:\Backup Feb 26\Ryan  Notebook D\PADv2\PAD.ico=Yes
+D:\Backup Feb 26\Ryan  Notebook D\PADv2\Help.doc=Yes
+D:\Backup Feb 26\Ryan  Notebook D\PADv2\help.jpg=Yes
+D:\Backup Feb 26\Ryan  Notebook D\PADv2\PAD.mdb=Yes
+
+[Package|PAD v2|Configure Registry Files]
+Applicable=No
+
+[Package|PAD v2|Configure Remote Servers]
+Applicable=No
+
+[Package|PAD v2|Install Locations]
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSEXCL35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\WINDOWS\system32\MSTEXT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSXBSE35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Backup Feb 26\Ryan  Notebook D\PADv2\PAD.ico=$(AppPath)
+D:\Backup Feb 26\Ryan  Notebook D\PADv2\Help.doc=$(AppPath)
+D:\Backup Feb 26\Ryan  Notebook D\PADv2\help.jpg=$(AppPath)
+D:\Backup Feb 26\Ryan  Notebook D\PADv2\PAD.mdb=$(AppPath)
+
+[Package|PAD v2|Configure Shared Files]
+Applicable=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\Backup Feb 26\Ryan  Notebook D\PADv2\PAD.ico=No
+D:\Backup Feb 26\Ryan  Notebook D\PADv2\Help.doc=No
+D:\Backup Feb 26\Ryan  Notebook D\PADv2\help.jpg=No
+D:\Backup Feb 26\Ryan  Notebook D\PADv2\PAD.mdb=No
+
+[Package|PAD v2|Distribution]
+Type=single
+Size=
+Title=Personal Address Directory v2.0.0
+
+[Package|PAD v2|IconGroups]
+Group0=PAD
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|PAD v2|PAD]
+Icon1=PAD.exe
+Title1=PAD
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=Help.doc
+Title2=PAD Help
+StartIn2=$(AppPath)
+Key2=Icon3
+Icon3=ST6UNST.EXE
+Title3=Unwise
+StartIn3=$(AppPath)
+Key3=Icon4
+
+[Package|PAD v2|Package]
+PackageFolder=D:\Backup Feb 26\Ryan  Notebook D\PADv2\Install
+ProjectFolder=D:\Backup Feb 26\Ryan  Notebook D\PADv2
+ServerSideCab=
+File1=D:\Backup Feb 26\Ryan  Notebook D\PADv2\Install\setup.exe
+File2=D:\Backup Feb 26\Ryan  Notebook D\PADv2\Install\Setup.Lst
+File3=D:\Backup Feb 26\Ryan  Notebook D\PADv2\Install\PAD.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
